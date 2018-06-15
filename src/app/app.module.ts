@@ -7,6 +7,7 @@ import { HeaderComponent } from './globals/header/header.component';
 import { CanastaComponent } from './globals/canasta/canasta.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CategoriaComponent } from './pages/categoria/categoria.component';
+import {appRoutingModule} from'./routin';
 
 @NgModule({
   declarations: [
@@ -15,10 +16,12 @@ import { CategoriaComponent } from './pages/categoria/categoria.component';
     HeaderComponent,
     CanastaComponent,
     HomeComponent,
-    CategoriaComponent
+    CategoriaComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    appRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
