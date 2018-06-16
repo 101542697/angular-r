@@ -8,6 +8,8 @@ import { CanastaComponent } from './globals/canasta/canasta.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CategoriaComponent } from './pages/categoria/categoria.component';
 import {appRoutingModule} from'./routin';
+import { SliderProductoComponent } from './slider/slider-producto/slider-producto.component';
+import { SliderProductoItemComponent } from './slider/slider-producto/slider-producto-item/slider-producto-item.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import {appRoutingModule} from'./routin';
     CanastaComponent,
     HomeComponent,
     CategoriaComponent,
+    SliderProductoComponent,
+    SliderProductoItemComponent,
     
   ],
   imports: [
